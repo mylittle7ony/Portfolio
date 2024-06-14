@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Geologica", sans-serif;
+  background-color: #100621;
+  color: #C77DFF;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  overflow: hidden;
+  background-color: #06020D;
+  width: 120%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  padding-left: 1vw;
+  z-index: 1;
+}
+nav #oMe {
+  font-weight: 400;
+}
+nav a {
+  color: #E0AAFF;
+  padding: 0.5vw;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 150;
+  font-size: calc(0.5rem + 1vw);
+  padding: 0.7% 1.5%;
+  text-decoration: none;
+  background-color: #06020D;
+}
+nav a:hover {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    color: #E0AAFF;
+    border-bottom: #06020D;
+    background-color: #06020D;
+  }
+  100% {
+    color: white;
+    border-bottom: #06020D;
+  }
+}
+
+#introGroup {
+  text-align: center;
+  margin-top: 35vh;
+  margin-bottom: 27vh;
+}
+#introGroup h1 {
+  font-weight: 700;
+  font-size: calc(1rem + 4vw);
+}
+#introGroup h2 {
+  margin-top: -3%;
+  font-weight: 400;
+  font-size: calc(1rem + 1vw);
+}
+
+#bobici1 {
+  width: 110%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+#aboutMeGroup {
+  background-color: #9D4EDD;
+  margin-top: -3%;
+  color: #100621;
+  height: 100vh;
+}
+#aboutMeGroup #firstHeading {
+  font-weight: 700;
+  font-size: calc(1rem + 3vw);
+}
+#aboutMeGroup img {
+  float: right;
+  margin-top: 10vh;
+}
+#aboutMeGroup p {
+  font-weight: 200;
+  font-size: calc(1rem + 0.8vw);
+  width: 75%;
+  margin-top: 15vh;
+}
+#aboutMeGroup .flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aboutMeGroup #secondHeading {
+  font-weight: 600;
+  font-size: calc(1rem + 0.8vw);
+}
+
+#bobici2 {
+  width: 110vw;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  rotate: 180deg;
+}
+
+#imgGame {
+  height: 30vh;
+  margin-top: 2000 px;
+}
+
+#projectsGroup {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 5%;
+  margin-bottom: 40vh;
+}
+#projectsGroup h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: calc(1rem + 3vw);
+  margin-bottom: 5%;
+}
+#projectsGroup #obsahBox h2 {
+  font-weight: 600;
+  font-size: calc(1.5rem + 1vw);
+}
+#projectsGroup #obsahBox p {
+  width: 60%;
+  font-weight: 200;
+  font-size: calc(1rem + 0.8vw);
+}
+#projectsGroup #obsahBox button {
+  float: right;
+  height: 9vh;
+  margin-right: 10vh;
+  margin-top: -3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2vh;
+  border-color: #C77DFF;
+  background-color: #C77DFF;
+  border-spacing: 0;
+}
+#projectsGroup #obsahBox button a {
+  color: white;
+  text-decoration: none;
+}
+#projectsGroup #obsahBox button img {
+  height: 6vh;
+  margin-left: 1vh;
+}
+#projectsGroup #obsahBox button:hover {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    background-color: #C77DFF;
+    border-color: #C77DFF;
+  }
+  100% {
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+  }
+}
+#projectsGroup #obsahBox img {
+  float: right;
+  margin-top: -2%;
+}
+
+#contactGroup {
+  width: 100%;
+  height: 55vh;
+  margin-top: -2%;
+  padding-top: 5vh;
+  text-align: center;
+  color: #100621;
+  background-color: #9D4EDD;
+}
+#contactGroup h2 {
+  font-weight: 600;
+  font-size: calc(1rem + 3vw);
+}
+#contactGroup h3 {
+  font-weight: 300;
+  font-size: calc(1.5rem + 1vw);
+  margin-top: -5vh;
+  margin-bottom: 3vh;
+}
+#contactGroup #socialsGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contactGroup .socialsLogo {
+  height: 12vh;
+  margin: 3vh;
+}
+#contactGroup #gmail {
+  width: 13vh;
+  height: 11vh;
+}/*# sourceMappingURL=style.css.map */
